@@ -7,11 +7,23 @@
 //
 
 import UIKit
+import FontAwesomeKit
 
 class MainTableViewController: UITableViewController {
 
+    private var list = ["Per Body Part", "Per Body Shape", "Analyze My Body"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let profile = FAKFontAwesome.userIcon(withSize: 40)
+        let profileImage = profile?.image(with: CGSize(width: 40, height: 40))
+        
+        let titleAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 25)]
+        self.navigationController?.navigationBar.titleTextAttributes = titleAttributes
+        
+        navigationItem.title = "Find Body Shape"
+        navigationItem.rightBarButtonItem?.image = profileImage
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -24,14 +36,22 @@ class MainTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 3
     }
 
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell", for: indexPath) as! MainTableViewCell
+        
+        let categoryTitle = list[indexPath.row]
+        cell.categoryLabel.text = categoryTitle
+        
+        return cell
+    }
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)

@@ -6,6 +6,8 @@
 //  Copyright © 2019 sooyeon Shim. All rights reserved.
 //
 
+#import FontAwesomeKit/FontAwesomeKit.h
+
 #ifndef FontAwesome_Bridging_Header_h
 #define FontAwesome_Bridging_Header_h
 

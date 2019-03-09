@@ -7,76 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5044A5D223199430047A1BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5044A5C223199430047A1BE /* AppDelegate.swift */; };
-		A5044A5F223199430047A1BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5044A5E223199430047A1BE /* ViewController.swift */; };
-		A5044A62223199430047A1BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5044A60223199430047A1BE /* Main.storyboard */; };
-		A5044A65223199430047A1BE /* FindBodyShape.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5044A63223199430047A1BE /* FindBodyShape.xcdatamodeld */; };
-		A5044A67223199440047A1BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5044A66223199440047A1BE /* Assets.xcassets */; };
-		A5044A6A223199440047A1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5044A68223199440047A1BE /* LaunchScreen.storyboard */; };
+		5EEE11C5D466DEF9AA51B70C /* Pods_FindBodyShape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90051CE3FE136777C3CDC93 /* Pods_FindBodyShape.framework */; };
+		A5044A8322319F290047A1BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5044A8222319F290047A1BE /* AppDelegate.swift */; };
+		A5044A8822319F290047A1BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5044A8622319F290047A1BE /* Main.storyboard */; };
+		A5044A8B22319F290047A1BE /* FindBodyShape.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5044A8922319F290047A1BE /* FindBodyShape.xcdatamodeld */; };
+		A5044A8D22319F2A0047A1BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5044A8C22319F2A0047A1BE /* Assets.xcassets */; };
+		A5044A9022319F2A0047A1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5044A8E22319F2A0047A1BE /* LaunchScreen.storyboard */; };
+		A5044A9922319FA50047A1BE /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5044A9822319FA50047A1BE /* MainTableViewController.swift */; };
+		A5044A9B22319FAF0047A1BE /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5044A9A22319FAF0047A1BE /* MainTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A5044A59223199430047A1BE /* FindBodyShape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindBodyShape.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5044A5C223199430047A1BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5044A5E223199430047A1BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A5044A61223199430047A1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5044A64223199430047A1BE /* FindBodyShape.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindBodyShape.xcdatamodel; sourceTree = "<group>"; };
-		A5044A66223199440047A1BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A5044A69223199440047A1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A5044A6B223199440047A1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3276DD2D8FF5AC8EE0F09B /* Pods-FindBodyShape.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindBodyShape.release.xcconfig"; path = "Target Support Files/Pods-FindBodyShape/Pods-FindBodyShape.release.xcconfig"; sourceTree = "<group>"; };
+		72E6BA826B730A4D82842A48 /* Pods-FindBodyShape.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindBodyShape.debug.xcconfig"; path = "Target Support Files/Pods-FindBodyShape/Pods-FindBodyShape.debug.xcconfig"; sourceTree = "<group>"; };
+		A5044A7F22319F290047A1BE /* FindBodyShape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindBodyShape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5044A8222319F290047A1BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5044A8722319F290047A1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5044A8A22319F290047A1BE /* FindBodyShape.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindBodyShape.xcdatamodel; sourceTree = "<group>"; };
+		A5044A8C22319F2A0047A1BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5044A8F22319F2A0047A1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5044A9122319F2A0047A1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5044A9722319F890047A1BE /* FontAwesome-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontAwesome-Bridging-Header.h"; sourceTree = "<group>"; };
+		A5044A9822319FA50047A1BE /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		A5044A9A22319FAF0047A1BE /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		D90051CE3FE136777C3CDC93 /* Pods_FindBodyShape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindBodyShape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A5044A56223199430047A1BE /* Frameworks */ = {
+		A5044A7C22319F290047A1BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EEE11C5D466DEF9AA51B70C /* Pods_FindBodyShape.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A5044A50223199430047A1BE = {
+		952878FCBF7069A170570A31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A5044A5B223199430047A1BE /* FindBodyShape */,
-				A5044A5A223199430047A1BE /* Products */,
+				D90051CE3FE136777C3CDC93 /* Pods_FindBodyShape.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5044A7622319F290047A1BE = {
+			isa = PBXGroup;
+			children = (
+				A5044A9722319F890047A1BE /* FontAwesome-Bridging-Header.h */,
+				A5044A8122319F290047A1BE /* FindBodyShape */,
+				A5044A8022319F290047A1BE /* Products */,
+				BB4B141FC870AA06335B1855 /* Pods */,
+				952878FCBF7069A170570A31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		A5044A5A223199430047A1BE /* Products */ = {
+		A5044A8022319F290047A1BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5044A59223199430047A1BE /* FindBodyShape.app */,
+				A5044A7F22319F290047A1BE /* FindBodyShape.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A5044A5B223199430047A1BE /* FindBodyShape */ = {
+		A5044A8122319F290047A1BE /* FindBodyShape */ = {
 			isa = PBXGroup;
 			children = (
-				A5044A5C223199430047A1BE /* AppDelegate.swift */,
-				A5044A5E223199430047A1BE /* ViewController.swift */,
-				A5044A60223199430047A1BE /* Main.storyboard */,
-				A5044A66223199440047A1BE /* Assets.xcassets */,
-				A5044A68223199440047A1BE /* LaunchScreen.storyboard */,
-				A5044A6B223199440047A1BE /* Info.plist */,
-				A5044A63223199430047A1BE /* FindBodyShape.xcdatamodeld */,
+				A5044A8222319F290047A1BE /* AppDelegate.swift */,
+				A5044A8622319F290047A1BE /* Main.storyboard */,
+				A5044A8C22319F2A0047A1BE /* Assets.xcassets */,
+				A5044A8E22319F2A0047A1BE /* LaunchScreen.storyboard */,
+				A5044A9122319F2A0047A1BE /* Info.plist */,
+				A5044A8922319F290047A1BE /* FindBodyShape.xcdatamodeld */,
+				A5044A9822319FA50047A1BE /* MainTableViewController.swift */,
+				A5044A9A22319FAF0047A1BE /* MainTableViewCell.swift */,
 			);
 			path = FindBodyShape;
+			sourceTree = "<group>";
+		};
+		BB4B141FC870AA06335B1855 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72E6BA826B730A4D82842A48 /* Pods-FindBodyShape.debug.xcconfig */,
+				2C3276DD2D8FF5AC8EE0F09B /* Pods-FindBodyShape.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5044A58223199430047A1BE /* FindBodyShape */ = {
+		A5044A7E22319F290047A1BE /* FindBodyShape */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5044A6E223199440047A1BE /* Build configuration list for PBXNativeTarget "FindBodyShape" */;
+			buildConfigurationList = A5044A9422319F2A0047A1BE /* Build configuration list for PBXNativeTarget "FindBodyShape" */;
 			buildPhases = (
-				A5044A55223199430047A1BE /* Sources */,
-				A5044A56223199430047A1BE /* Frameworks */,
-				A5044A57223199430047A1BE /* Resources */,
+				87A1742D7F9790F5D40311FA /* [CP] Check Pods Manifest.lock */,
+				A5044A7B22319F290047A1BE /* Sources */,
+				A5044A7C22319F290047A1BE /* Frameworks */,
+				A5044A7D22319F290047A1BE /* Resources */,
+				7D3337E88EF9F2337C065964 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,25 +115,25 @@
 			);
 			name = FindBodyShape;
 			productName = FindBodyShape;
-			productReference = A5044A59223199430047A1BE /* FindBodyShape.app */;
+			productReference = A5044A7F22319F290047A1BE /* FindBodyShape.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A5044A51223199430047A1BE /* Project object */ = {
+		A5044A7722319F290047A1BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "sooyeon Shim";
 				TargetAttributes = {
-					A5044A58223199430047A1BE = {
+					A5044A7E22319F290047A1BE = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = A5044A54223199430047A1BE /* Build configuration list for PBXProject "FindBodyShape" */;
+			buildConfigurationList = A5044A7A22319F290047A1BE /* Build configuration list for PBXProject "FindBodyShape" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +141,103 @@
 				en,
 				Base,
 			);
-			mainGroup = A5044A50223199430047A1BE;
-			productRefGroup = A5044A5A223199430047A1BE /* Products */;
+			mainGroup = A5044A7622319F290047A1BE;
+			productRefGroup = A5044A8022319F290047A1BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5044A58223199430047A1BE /* FindBodyShape */,
+				A5044A7E22319F290047A1BE /* FindBodyShape */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A5044A57223199430047A1BE /* Resources */ = {
+		A5044A7D22319F290047A1BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5044A6A223199440047A1BE /* LaunchScreen.storyboard in Resources */,
-				A5044A67223199440047A1BE /* Assets.xcassets in Resources */,
-				A5044A62223199430047A1BE /* Main.storyboard in Resources */,
+				A5044A9022319F2A0047A1BE /* LaunchScreen.storyboard in Resources */,
+				A5044A8D22319F2A0047A1BE /* Assets.xcassets in Resources */,
+				A5044A8822319F290047A1BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D3337E88EF9F2337C065964 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindBodyShape/Pods-FindBodyShape-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindBodyShape/Pods-FindBodyShape-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A1742D7F9790F5D40311FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindBodyShape-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		A5044A55223199430047A1BE /* Sources */ = {
+		A5044A7B22319F290047A1BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5044A5F223199430047A1BE /* ViewController.swift in Sources */,
-				A5044A65223199430047A1BE /* FindBodyShape.xcdatamodeld in Sources */,
-				A5044A5D223199430047A1BE /* AppDelegate.swift in Sources */,
+				A5044A8B22319F290047A1BE /* FindBodyShape.xcdatamodeld in Sources */,
+				A5044A9922319FA50047A1BE /* MainTableViewController.swift in Sources */,
+				A5044A9B22319FAF0047A1BE /* MainTableViewCell.swift in Sources */,
+				A5044A8322319F290047A1BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A5044A60223199430047A1BE /* Main.storyboard */ = {
+		A5044A8622319F290047A1BE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A5044A61223199430047A1BE /* Base */,
+				A5044A8722319F290047A1BE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A5044A68223199440047A1BE /* LaunchScreen.storyboard */ = {
+		A5044A8E22319F2A0047A1BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A5044A69223199440047A1BE /* Base */,
+				A5044A8F22319F2A0047A1BE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +245,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A5044A6C223199440047A1BE /* Debug */ = {
+		A5044A9222319F2A0047A1BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +306,7 @@
 			};
 			name = Debug;
 		};
-		A5044A6D223199440047A1BE /* Release */ = {
+		A5044A9322319F2A0047A1BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,8 +361,9 @@
 			};
 			name = Release;
 		};
-		A5044A6F223199440047A1BE /* Debug */ = {
+		A5044A9522319F2A0047A1BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E6BA826B730A4D82842A48 /* Pods-FindBodyShape.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,8 +379,9 @@
 			};
 			name = Debug;
 		};
-		A5044A70223199440047A1BE /* Release */ = {
+		A5044A9622319F2A0047A1BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3276DD2D8FF5AC8EE0F09B /* Pods-FindBodyShape.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -319,20 +400,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5044A54223199430047A1BE /* Build configuration list for PBXProject "FindBodyShape" */ = {
+		A5044A7A22319F290047A1BE /* Build configuration list for PBXProject "FindBodyShape" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5044A6C223199440047A1BE /* Debug */,
-				A5044A6D223199440047A1BE /* Release */,
+				A5044A9222319F2A0047A1BE /* Debug */,
+				A5044A9322319F2A0047A1BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5044A6E223199440047A1BE /* Build configuration list for PBXNativeTarget "FindBodyShape" */ = {
+		A5044A9422319F2A0047A1BE /* Build configuration list for PBXNativeTarget "FindBodyShape" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5044A6F223199440047A1BE /* Debug */,
-				A5044A70223199440047A1BE /* Release */,
+				A5044A9522319F2A0047A1BE /* Debug */,
+				A5044A9622319F2A0047A1BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -340,17 +421,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A5044A63223199430047A1BE /* FindBodyShape.xcdatamodeld */ = {
+		A5044A8922319F290047A1BE /* FindBodyShape.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A5044A64223199430047A1BE /* FindBodyShape.xcdatamodel */,
+				A5044A8A22319F290047A1BE /* FindBodyShape.xcdatamodel */,
 			);
-			currentVersion = A5044A64223199430047A1BE /* FindBodyShape.xcdatamodel */;
+			currentVersion = A5044A8A22319F290047A1BE /* FindBodyShape.xcdatamodel */;
 			path = FindBodyShape.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = A5044A51223199430047A1BE /* Project object */;
+	rootObject = A5044A7722319F290047A1BE /* Project object */;
 }
