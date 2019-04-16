@@ -20,17 +20,21 @@ PODS:
     - FontAwesomeKit/Core
   - FontAwesomeKit/Zocial (2.2.1):
     - FontAwesomeKit/Core
+  - TextFieldEffects (1.5.1)
 
 DEPENDENCIES:
   - FontAwesomeKit (~> 2.2.0)
+  - TextFieldEffects
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FontAwesomeKit
+    - TextFieldEffects
 
 SPEC CHECKSUMS:
   FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  TextFieldEffects: 7d372f58aeaf9acd9626bbf962680aef926b085d
 
-PODFILE CHECKSUM: dd4fd430cfd6c3f87f98331aa82e40684d889ab4
+PODFILE CHECKSUM: b7573ba89c284a2d257f3db59671cdc93d2de97e
 
 COCOAPODS: 1.6.1

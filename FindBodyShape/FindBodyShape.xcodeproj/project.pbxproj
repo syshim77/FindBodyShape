@@ -15,6 +15,8 @@
 		A5044A9022319F2A0047A1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5044A8E22319F2A0047A1BE /* LaunchScreen.storyboard */; };
 		A5044A9922319FA50047A1BE /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5044A9822319FA50047A1BE /* MainTableViewController.swift */; };
 		A5044A9B22319FAF0047A1BE /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5044A9A22319FAF0047A1BE /* MainTableViewCell.swift */; };
+		A5044AA52234306D0047A1BE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5044AA42234306D0047A1BE /* ProfileViewController.swift */; };
+		A51A9CE8225C733B006EB9BD /* UserProfileInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A9CE7225C733B006EB9BD /* UserProfileInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A5044A9722319F890047A1BE /* FontAwesome-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontAwesome-Bridging-Header.h"; sourceTree = "<group>"; };
 		A5044A9822319FA50047A1BE /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		A5044A9A22319FAF0047A1BE /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		A5044AA42234306D0047A1BE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A51A9CE7225C733B006EB9BD /* UserProfileInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileInformation.swift; sourceTree = "<group>"; };
 		D90051CE3FE136777C3CDC93 /* Pods_FindBodyShape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindBodyShape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,12 +81,14 @@
 			children = (
 				A5044A8222319F290047A1BE /* AppDelegate.swift */,
 				A5044A8622319F290047A1BE /* Main.storyboard */,
+				A51A9CE7225C733B006EB9BD /* UserProfileInformation.swift */,
 				A5044A8C22319F2A0047A1BE /* Assets.xcassets */,
 				A5044A8E22319F2A0047A1BE /* LaunchScreen.storyboard */,
 				A5044A9122319F2A0047A1BE /* Info.plist */,
 				A5044A8922319F290047A1BE /* FindBodyShape.xcdatamodeld */,
 				A5044A9822319FA50047A1BE /* MainTableViewController.swift */,
 				A5044A9A22319FAF0047A1BE /* MainTableViewCell.swift */,
+				A5044AA42234306D0047A1BE /* ProfileViewController.swift */,
 			);
 			path = FindBodyShape;
 			sourceTree = "<group>";
@@ -175,12 +181,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FindBodyShape/Pods-FindBodyShape-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -217,7 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5044A8B22319F290047A1BE /* FindBodyShape.xcdatamodeld in Sources */,
+				A51A9CE8225C733B006EB9BD /* UserProfileInformation.swift in Sources */,
 				A5044A9922319FA50047A1BE /* MainTableViewController.swift in Sources */,
+				A5044AA52234306D0047A1BE /* ProfileViewController.swift in Sources */,
 				A5044A9B22319FAF0047A1BE /* MainTableViewCell.swift in Sources */,
 				A5044A8322319F290047A1BE /* AppDelegate.swift in Sources */,
 			);
